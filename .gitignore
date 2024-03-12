@@ -1,0 +1,56 @@
+# General
+node_modules/
+npm-debug.log
+yarn-error.log
+*.pid
+*.pid.lock
+log/*.log
+tmp/
+pids/
+logs/
+results/
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+/.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Client-specific
+/client/node_modules/
+/client/build/
+/client/.next/
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+# Server-specific
+/server/node_modules/
+/server/build/
+/server/dist/
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
